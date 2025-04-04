@@ -47,7 +47,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                     <div class="row mt-3">
                         <div class="col-md-12 text-center">
-                            <p>Belum punya akun? <?= Html::a('Daftar disini', ['#']) ?></p>
+                            <p>Belum punya akun? <?= Html::a('Daftar disini', ['site/register']) ?></p>
                             <p>Lupa password? <?= Html::a('Reset password', ['#']) ?></p>
                         </div>
                     </div>
